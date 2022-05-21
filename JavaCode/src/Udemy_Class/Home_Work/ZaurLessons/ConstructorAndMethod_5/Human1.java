@@ -5,6 +5,14 @@ public class Human1 {
     Car10 car ;
     BankAccaount4 ba ;
 
+
+    Human1(int a , String b){
+
+
+    }
+
+    public Human1(){};
+
     void info (){
         System.out.println("Name:" + name + "Color car:" + car.color + "Balance of Bank: " + ba.balance);
     }
